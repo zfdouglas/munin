@@ -1,0 +1,15 @@
+.threeReader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 70vw;
+  height: 80vh;
+}
+.oneReader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70vw;
+}

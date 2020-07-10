@@ -1,0 +1,22 @@
+{
+  "name": "munin",
+  "version": "1.0.0",
+  "description": "Open Tarot API",
+  "main": "C:\\munin\\backend\\index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node C:\\munin\\backend\\index.js"
+  },
+  "keywords": [
+    "API",
+    "tarot"
+  ],
+  "author": "zfdouglas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}

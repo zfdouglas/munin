@@ -1,0 +1,133 @@
+.TarotCard {
+  width: 30vh;
+  height: 55vh;
+  background-color: transparent;
+  border-radius: 10px;
+  align-self: center;
+  perspective: 1000px;
+  cursor: pointer;
+  font-family: "La Belle Aurore", cursive;
+}
+.dataHolder {
+  width: 100%;
+  background-color: transparent;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.imageHolder {
+  height: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200%;
+}
+.tarotImage {
+  width: 20vh;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.dataHolder:hover .inner {
+  transform: rotateY(180deg);
+}
+.front {
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.front,
+.back {
+  /* background: rgb(61, 155, 255); */
+  /* background: radial-gradient(
+    circle,
+    rgba(61, 155, 255, 1) 24%,
+    rgba(232, 74, 74, 1) 81%,
+    rgba(255, 153, 0, 1) 96%
+  ); */
+  background: rgb(61, 155, 255);
+  background: linear-gradient(
+    124deg,
+    rgba(61, 155, 255) 24%,
+    rgba(232, 74, 74) 81%,
+    rgba(255, 153, 0) 96%
+  );
+  position: absolute;
+  padding: 0.3em;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  -moz-box-shadow: 0 0 8px #ccc;
+  -webkit-box-shadow: 0 0 8px #ccc;
+  box-shadow: 0 0 8px #ccc;
+}
+.back {
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  font-weight: 500;
+  font-size: 3vh;
+}
+.back h3 {
+  color: white;
+}
+.uprightDefinition {
+  font-family: "Amatic SC", cursive;
+  align-self: center;
+  display: block;
+  justify-self: center;
+  text-align: left;
+  font-size: 3vh;
+  color: white;
+}
+.uprightDefinitionHolder {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+.tarotValue {
+  justify-self: flex-end;
+  align-self: center;
+  position: absolute;
+  bottom: 2vh;
+  font-weight: 700;
+  font-size: 4vh;
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+.tarotName {
+  display: block;
+  font-weight: 700;
+  height: 30%;
+  margin-bottom: 2vh;
+  color: white;
+  font-size: 4vh;
+}
+@media screen and (max-width: 900px) {
+  .TarotCard {
+    width: 30vh;
+    height: 55vh;
+    background-color: transparent;
+    border-radius: 5px;
+    align-self: center;
+    margin: 5vh;
+  }
+}
+.tarotHeader {
+  color: #e84a4a;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+.oneReader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

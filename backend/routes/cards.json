@@ -1,0 +1,772 @@
+[
+  {
+    "Id": 0,
+    "Name": "The Fool",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "beginnings, possibilities, pleasure, thoughtlessness, adventure, opportunity",
+    "ReverseDef": "indecision, hesitation, injustice, apathy, bad choice"
+  },
+  {
+    "Id": 1,
+    "Name": "The Magician",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "creativity, self-confidence, dexterity, sleight of hand,will-power, skill",
+    "ReverseDef": "delay, unimaginative, insecurity, lack of self-confidence"
+  },
+  {
+    "Id": 2,
+    "Name": "The High Priestess",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "knowledge, wisdom, learning, intuition, impatience, virtue, purity",
+    "ReverseDef": "selfishness, shallowness, misunderstanding, ignorance"
+  },
+  {
+    "Id": 3,
+    "Name": "The Empress",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "development, accomplishment action, evolution",
+    "ReverseDef": "inaction, lack on concentration, vacillation, anxiety, infidelity"
+  },
+  {
+    "Id": 4,
+    "Name": "The Emperor",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "authority, father-figure, structure, solid foundation",
+    "ReverseDef": "domination, excessive control, rigidity, inflexibility"
+  },
+  {
+    "Id": 5,
+    "Name": "The Hierophant",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "mercy, conformity, forgiveness, social approval, bonded, inspiration",
+    "ReverseDef": "vulnerability, unconventionality, foolish generosity, impotence, frailty, unorthodoxy"
+  },
+  {
+    "Id": 6,
+    "Name": "The Chariot",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "perseverance, rushed decision, turmoil, vengeance, adversity",
+    "ReverseDef": "vanquishment, defeat, failure, unsuccessful"
+  },
+  {
+    "Id": 7,
+    "Name": "Strength",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "courage, conviction, strength, determination, action, heroism, virility",
+    "ReverseDef": "pettiness, sickness, unfaithfulness, weakness"
+  },
+  {
+    "Id": 8,
+    "Name": "The Hermit",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "inner strength, prudence, withdrawal, caution, vigilance",
+    "ReverseDef": "hastiness, rashness,immaturity, imprudence, foolishness"
+  },
+  {
+    "Id": 9,
+    "Name": "The Wheel of Fortune",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "unexpected events, advancement, destiny, fortune, progress",
+    "ReverseDef": "interruption, outside influences, failure, bad luck"
+  },
+  {
+    "Id": 10,
+    "Name": "Justice",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "equality, righteousness, virtue, honor, harmony, balance",
+    "ReverseDef": "false accusation, unfairness, abuse, biased"
+  },
+  {
+    "Id": 11,
+    "Name": "The Hanged Man",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "change, reversal, boredom, improvement, rebirth, suspension, change",
+    "ReverseDef": "false prophecy, useless sacrifice, unwillingness"
+  },
+  {
+    "Id": 12,
+    "Name": "Death",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "unexpected change, loss, failure, transformation, death, bad luck",
+    "ReverseDef": "immobility, slow changes, cheating, death, stagnation"
+  },
+  {
+    "Id": 13,
+    "Name": "Temperance",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "emperance, patience, good influence, confidence, moderation",
+    "ReverseDef": "conflict, disunion, frustration, impatience, discord"
+  },
+  {
+    "Id": 14,
+    "Name": "The Devil",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "downfall, unexpected failure, controversy, ravage, disaster, ill tempered",
+    "ReverseDef": "release, enlightenment, divorce, recovery"
+  },
+  {
+    "Id": 15,
+    "Name": "The Tower",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "disruption, abandonment, end of friendship, bankruptcy, downfall, unexpected events",
+    "ReverseDef": "entrapment, imprisonment, old ways, rustic"
+  },
+  {
+    "Id": 16,
+    "Name": "The Star",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "balance, pleasure, optimism, insight, spiritual love, hope, faith",
+    "ReverseDef": "disappointment, bad luck, imbalance, broken dreams"
+  },
+  {
+    "Id": 17,
+    "Name": "The Moon",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "double-dealing Deception, disillusionment, trickery, error, danger, disgrace",
+    "ReverseDef": "trifling mistakes, deception discovered, negative advantage"
+  },
+  {
+    "Id": 18,
+    "Name": "The Sun",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "accomplishment, success, love, joy, happy marriage, satisfaction",
+    "ReverseDef": "loneliness, canceled plans, unhappiness, break ups"
+  },
+  {
+    "Id": 19,
+    "Name": "Judgement",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "awakening,renewal,rejuvenation,rebirth,improvement,promotion,atonement,judgment",
+    "ReverseDef": "disappointment, indecision, death, failure, ill-health, theft, worry"
+  },
+  {
+    "Id": 20,
+    "Name": "The World",
+    "Suit": null,
+    "Value": null,
+    "Major": true,
+    "Minor": false,
+    "UprightDef": "perfection, recognition, success, fulfillment, eternal life",
+    "ReverseDef": "lack of vision, disappointment, imperfection"
+  },
+  {
+    "Id": 21,
+    "Name": "Ace of Wands",
+    "Suit": "Wands",
+    "Value": "1",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "profitable journey, new business, beginning, new career, birth, inheritance",
+    "ReverseDef": "selfishness, lack of determination, setback"
+  },
+  {
+    "Id": 22,
+    "Name": "Two of Wands",
+    "Suit": "Wands",
+    "Value": "2",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "generous person, courage, patience, courage",
+    "ReverseDef": "impatience, domination"
+  },
+  {
+    "Id": 23,
+    "Name": "Three of Wands",
+    "Suit": "Wands",
+    "Value": "3",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "cooperation, good partnership, success",
+    "ReverseDef": "carelessness, arrogance, pride, mistakes, selfishness, lack of determination, setback"
+  },
+  {
+    "Id": 24,
+    "Name": "Four of Wands",
+    "Suit": "Wands",
+    "Value": "4",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "dissatisfaction, kindness, reevaluation",
+    "ReverseDef": "new relationship, new ambitions, action"
+  },
+  {
+    "Id": 25,
+    "Name": "Five of Wands",
+    "Suit": "Wands",
+    "Value": "5",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "lawsuit or quarrel, courage, competition",
+    "ReverseDef": "new opportunities, harmony, generosity"
+  },
+  {
+    "Id": 26,
+    "Name": "Six of Wands",
+    "Suit": "Wands",
+    "Value": "6",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "leadership, good news, success",
+    "ReverseDef": "postponement, bad news, pride in riches"
+  },
+  {
+    "Id": 27,
+    "Name": "Seven of Wands",
+    "Suit": "Wands",
+    "Value": "7",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "stiff competition, victory, courage, energy",
+    "ReverseDef": "advantage,patience,indecision"
+  },
+  {
+    "Id": 28,
+    "Name": "Eight of Wands",
+    "Suit": "Wands",
+    "Value": "8",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "new ideas, love, journey",
+    "ReverseDef": "violence, quarrels, courage"
+  },
+  {
+    "Id": 29,
+    "Name": "Nine of Wands",
+    "Suit": "Wands",
+    "Value": "9",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "victory, good health, obstinancy",
+    "ReverseDef": "weakness, ill-health, adversity"
+  },
+  {
+    "Id": 30,
+    "Name": "Ten of Wands",
+    "Suit": "Wands",
+    "Value": "10",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "pain, ruined, failure",
+    "ReverseDef": "cleverness, energy, strength"
+  },
+  {
+    "Id": 31,
+    "Name": "Page of Wands",
+    "Suit": "Wands",
+    "Value": "Page",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "enthusiasm, exploration, discovery, free spirit",
+    "ReverseDef": "setbacks to new ideas, pessimism, lack of direction"
+  },
+  {
+    "Id": 32,
+    "Name": "Knight of Wands",
+    "Suit": "Wands",
+    "Value": "Knight",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "generous, journey, impetuous",
+    "ReverseDef": "suspicion, jealousy, narrow-mindedness"
+  },
+  {
+    "Id": 33,
+    "Name": "Queen of Wands",
+    "Suit": "Wands",
+    "Value": "Queen",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "fondness, attraction, command",
+    "ReverseDef": "jealousy, vengefulness, infidelity"
+  },
+  {
+    "Id": 34,
+    "Name": "King of Wands",
+    "Suit": "Wands",
+    "Value": "King",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "passionate, good leader, noble",
+    "ReverseDef": "unyielding, prejudice, quarrels"
+  },
+  {
+    "Id": 35,
+    "Name": "Ace of Cups",
+    "Suit": "Cups",
+    "Value": "1",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "good health, love, joy, beauty",
+    "ReverseDef": "egotism, selfishness, hesitancy"
+  },
+  {
+    "Id": 36,
+    "Name": "Two of Cups",
+    "Suit": "Cups",
+    "Value": "2",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "romance, friendship, cooperation",
+    "ReverseDef": "violent passion, misunderstanding"
+  },
+  {
+    "Id": 37,
+    "Name": "Three of Cups",
+    "Suit": "Cups",
+    "Value": "3",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "fortune, hospitality, discovery",
+    "ReverseDef": "hidden, overindulgence, pain, gossip"
+  },
+  {
+    "Id": 38,
+    "Name": "Four of Cups",
+    "Suit": "Cups",
+    "Value": "4",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "dissatisfaction, kindness, reevaluation, redemption",
+    "ReverseDef": "new goals, ambitions, beginnings"
+  },
+  {
+    "Id": 39,
+    "Name": "Five of Cups",
+    "Suit": "Cups",
+    "Value": "5",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "broken relationship, vanity, regret, sorrow, loss",
+    "ReverseDef": "return, summon, hope"
+  },
+  {
+    "Id": 40,
+    "Name": "Six of Cups",
+    "Suit": "Cups",
+    "Value": "6",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "acquaintances, good memories, happiness",
+    "ReverseDef": "friendship, disappointment, past"
+  },
+  {
+    "Id": 41,
+    "Name": "Seven of Cups",
+    "Suit": "Cups",
+    "Value": "7",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "imagination, illusion, directionless",
+    "ReverseDef": "will-power, determination"
+  },
+  {
+    "Id": 42,
+    "Name": "Eight of Cups",
+    "Suit": "Cups",
+    "Value": "8",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "disappointment, abandonment, misery",
+    "ReverseDef": "pleasure, success, joy"
+  },
+  {
+    "Id": 43,
+    "Name": "Nine of Cups",
+    "Suit": "Cups",
+    "Value": "9",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "physical well-being, hopes, security",
+    "ReverseDef": "illness, failure, over-indulgence"
+  },
+  {
+    "Id": 44,
+    "Name": "Ten of Cups",
+    "Suit": "Cups",
+    "Value": "10",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "friendship, happiness, life",
+    "ReverseDef": "waste, broken relationships, quarrel"
+  },
+  {
+    "Id": 45,
+    "Name": "Page of Cups",
+    "Suit": "Cups",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "sweetness, interest in literature, gentleness",
+    "ReverseDef": "poor imagination, selfishness, no desires"
+  },
+  {
+    "Id": 46,
+    "Name": "Knight of Cups",
+    "Suit": "Cups",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "emotional, romantic, dreamer, intelligence",
+    "ReverseDef": "idleness, untruthful, fraud, sensuality"
+  },
+  {
+    "Id": 47,
+    "Name": "Queen of Cups",
+    "Suit": "Cups",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "loving mother, gentle, happiness",
+    "ReverseDef": "perverse, unhappy, gloom, over-active imagination"
+  },
+  {
+    "Id": 48,
+    "Name": "King of Cups",
+    "Suit": "Cups",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "kindness, willingness, enjoyment",
+    "ReverseDef": "double-dealer, scandal, crafty, violent"
+  },
+  {
+    "Id": 49,
+    "Name": "Ace of Swords",
+    "Suit": "Swords",
+    "Value": "1",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "love, valiant, victory",
+    "ReverseDef": "obstacles, tyranny, power"
+  },
+  {
+    "Id": 50,
+    "Name": "Two of Swords",
+    "Suit": "Swords",
+    "Value": "2",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "indecision, trouble, balanced",
+    "ReverseDef": "unscrupulous, release"
+  },
+  {
+    "Id": 51,
+    "Name": "Three of Swords",
+    "Suit": "Swords",
+    "Value": "3",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "broken relationship, civil war",
+    "ReverseDef": "sorrow, loss, confusion"
+  },
+  {
+    "Id": 52,
+    "Name": "Four of Swords",
+    "Suit": "Swords",
+    "Value": "4",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "temporary exile, strife, retreat",
+    "ReverseDef": "social unrest, labor strikes, renewed activity"
+  },
+  {
+    "Id": 53,
+    "Name": "Five of Swords",
+    "Suit": "Swords",
+    "Value": "5",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "defeat, cowardliness, empty victory",
+    "ReverseDef": "unfairness, defeat, loss"
+  },
+  {
+    "Id": 54,
+    "Name": "Six of Swords",
+    "Suit": "Swords",
+    "Value": "6",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "harmony, sorrow, journey",
+    "ReverseDef": "obstacles, difficulties, defeat"
+  },
+  {
+    "Id": 55,
+    "Name": "Seven of Swords",
+    "Suit": "Swords",
+    "Value": "7",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "betrayal, insolence, unwise attempt",
+    "ReverseDef": "counsel, helpful, advice"
+  },
+  {
+    "Id": 56,
+    "Name": "Eight of Swords",
+    "Suit": "Swords",
+    "Value": "8",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "weakness, indecision, censure",
+    "ReverseDef": "freedom, new beginnings, relaxation"
+  },
+  {
+    "Id": 57,
+    "Name": "Nine of Swords",
+    "Suit": "Swords",
+    "Value": "9",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "desolation, illness, suspicion, cruelty",
+    "ReverseDef": "unselfishness, good news, healing"
+  },
+  {
+    "Id": 58,
+    "Name": "Ten of Swords",
+    "Suit": "Swords",
+    "Value": "10",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "defeat, failure, pain",
+    "ReverseDef": "courage, positive energy, good health"
+  },
+  {
+    "Id": 59,
+    "Name": "Page of Swords",
+    "Suit": "Swords",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "grace, diplomacy, dexterity",
+    "ReverseDef": "imposter, ill-health, cunningness"
+  },
+  {
+    "Id": 60,
+    "Name": "Knight of Swords",
+    "Suit": "Swords",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "strong person, braveness, clever person",
+    "ReverseDef": "troublemaker, crafty, tyranny"
+  },
+  {
+    "Id": 61,
+    "Name": "Queen of Swords",
+    "Suit": "Swords",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "skillful, brave, clever, rushing",
+    "ReverseDef": "sly, keen, deceitful"
+  },
+  {
+    "Id": 62,
+    "Name": "King of Swords",
+    "Suit": "Swords",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "powerful, friendship, counselor",
+    "ReverseDef": "obstinate, evil intentions, judgements"
+  },
+  {
+    "Id": 63,
+    "Name": "Ace of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "1",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "prosperity, happiness, pleasure",
+    "ReverseDef": "misery, greedy, money"
+  },
+  {
+    "Id": 64,
+    "Name": "Two of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "2",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "harmony, new projects, helpful",
+    "ReverseDef": "difficulty, discouragement"
+  },
+  {
+    "Id": 65,
+    "Name": "Three of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "3",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "abilities, approval, effort",
+    "ReverseDef": "preoccupation, ambitions"
+  },
+  {
+    "Id": 66,
+    "Name": "Four of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "4",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "ungenerous, greedy,miserly",
+    "ReverseDef": "spendthrift, obstacles, earthly possessions"
+  },
+  {
+    "Id": 67,
+    "Name": "Five of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "5",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "destitution, poor health, despair, loneliness",
+    "ReverseDef": "employment, courage, revival"
+  },
+  {
+    "Id": 68,
+    "Name": "Six of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "6",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "prosperity, philanthropy, charity, gifts",
+    "ReverseDef": "jealousy, miserliness, unfairness"
+  },
+  {
+    "Id": 69,
+    "Name": "Seven of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "7",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "development, re-evaluation, effort, hard work",
+    "ReverseDef": "impatience, slow progress, investments"
+  },
+  {
+    "Id": 70,
+    "Name": "Eight of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "8",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "employment, money, learning, trade",
+    "ReverseDef": "void, no ambition, dislike"
+  },
+  {
+    "Id": 71,
+    "Name": "Nine of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "9",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "solitude, well-being, green thumb",
+    "ReverseDef": "caution, possible loss"
+  },
+  {
+    "Id": 72,
+    "Name": "Ten of Pentacles",
+    "Suit": "Pentacles",
+    "Value": "10",
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "wealth, prosperity, stability",
+    "ReverseDef": "dull, slothfulness, mistfortune"
+  },
+  {
+    "Id": 73,
+    "Name": "Page of Pentacles",
+    "Suit": "Pentacles",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "kindness, new ideas, new opinions, scholar",
+    "ReverseDef": "luxury, rebellious, bad news"
+  },
+  {
+    "Id": 74,
+    "Name": "Knight of Pentacles",
+    "Suit": "Pentacles",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "dull outlook, patience, animal lover, trustworthy",
+    "ReverseDef": "carelessness, standstill, irresponsible"
+  },
+  {
+    "Id": 75,
+    "Name": "Queen of Pentacles",
+    "Suit": "Pentacles",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "thoughtfulness, intelligence, talents, melancholy",
+    "ReverseDef": "mistrust, suspicion, neglect"
+  },
+  {
+    "Id": 76,
+    "Name": "King of Pentacles",
+    "Suit": "Pentacles",
+    "Value": null,
+    "Major": false,
+    "Minor": true,
+    "UprightDef": "reliable person, steadiness",
+    "ReverseDef": "bribes, materialistic, calm"
+  }
+]

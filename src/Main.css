@@ -1,0 +1,46 @@
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+}
+.ReadingChoicePrompt {
+  width: 70%;
+  height: 50%;
+  /* background-color: rgb(235, 235, 235); */
+  border-radius: 7px;
+  justify-content: center;
+  margin-top: 5%;
+}
+.ReadingChoiceHolder {
+  display: inline-block;
+  width: 25%;
+  height: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ReadingChoiceCircle:hover {
+  background-color: #e84a4a !important;
+}
+.ReadingChoiceCircle {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ReadingChoiceCircle img {
+  max-width: 100%;
+  max-height: 100%;
+}
+@media screen and (max-width: 575px) {
+  .ReadingChoicePrompt {
+    width: 70%;
+    height: 100%;
+    border-radius: 7px;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .ReadingChoiceHolder {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+  }
+}

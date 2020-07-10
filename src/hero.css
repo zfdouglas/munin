@@ -1,0 +1,78 @@
+.HeroContainer {
+  height: 60vh;
+  background: rgb(61, 155, 255);
+  background: linear-gradient(
+    124deg,
+    rgba(61, 155, 255, 1) 0%,
+    rgba(232, 74, 74, 1) 63%,
+    rgba(255, 153, 0, 1) 100%
+  );
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.HeroContainer p {
+  font-size: 8vw;
+  font-weight: 600;
+  padding-top: 10vh;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 600px) {
+  .HeroContainer p {
+    font-size: 20vw;
+  }
+}
+.HeroButton {
+  width: 30vw;
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 35%;
+  bottom: 5vh;
+  align-self: center;
+}
+.HeroButton button {
+  font-size: 3vw;
+  display: inline-block;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #3d9bff;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #3f8ff1;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+@media screen and (max-height: 550px) {
+  .HeroContainer {
+    min-height: 100vh;
+  }
+  .HeroButton {
+    bottom: 20vh;
+  }
+}
