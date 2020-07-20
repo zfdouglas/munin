@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/munin/static/css/main.8dcfc786.chunk.css",
+    "main.js": "/munin/static/js/main.a882c2d2.chunk.js",
+    "main.js.map": "/munin/static/js/main.a882c2d2.chunk.js.map",
+    "runtime-main.js": "/munin/static/js/runtime-main.d67cee50.js",
+    "runtime-main.js.map": "/munin/static/js/runtime-main.d67cee50.js.map",
+    "static/js/2.4f7aff9f.chunk.js": "/munin/static/js/2.4f7aff9f.chunk.js",
+    "static/js/2.4f7aff9f.chunk.js.map": "/munin/static/js/2.4f7aff9f.chunk.js.map",
+    "index.html": "/munin/index.html",
+    "precache-manifest.9a78eac02ff34e207a316d12c67bb5a7.js": "/munin/precache-manifest.9a78eac02ff34e207a316d12c67bb5a7.js",
+    "service-worker.js": "/munin/service-worker.js",
+    "static/css/main.8dcfc786.chunk.css.map": "/munin/static/css/main.8dcfc786.chunk.css.map",
+    "static/js/2.4f7aff9f.chunk.js.LICENSE.txt": "/munin/static/js/2.4f7aff9f.chunk.js.LICENSE.txt",
+    "static/media/cupmine2.svg": "/munin/static/media/cupmine2.14b52b7c.svg",
+    "static/media/pentaclemine2.svg": "/munin/static/media/pentaclemine2.71f69670.svg",
+    "static/media/ravengif.gif": "/munin/static/media/ravengif.3b7c4e9a.gif",
+    "static/media/ravenlines2w.svg": "/munin/static/media/ravenlines2w.07e47b8a.svg",
+    "static/media/swordmine2.svg": "/munin/static/media/swordmine2.a16e0a44.svg",
+    "static/media/tarot2.svg": "/munin/static/media/tarot2.14ed9879.svg",
+    "static/media/triquetra.svg": "/munin/static/media/triquetra.f17d6d8b.svg",
+    "static/media/wandsmine2.svg": "/munin/static/media/wandsmine2.a626c1bf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d67cee50.js",
+    "static/js/2.4f7aff9f.chunk.js",
+    "static/css/main.8dcfc786.chunk.css",
+    "static/js/main.a882c2d2.chunk.js"
+  ]
+}
