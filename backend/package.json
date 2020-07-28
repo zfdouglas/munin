@@ -2,10 +2,10 @@
   "name": "munin",
   "version": "1.0.0",
   "description": "Open Tarot API",
-  "main": "C:\\munin\\backend\\index.js",
+  "main": "C:\\munin\\backend\\public\\index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node C:\\munin\\backend\\index.js"
+    "start": "node C:\\munin\\backend\\public\\index.js"
   },
   "keywords": [
     "API",

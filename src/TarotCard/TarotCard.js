@@ -1,10 +1,10 @@
 import React from "react";
 import "./TarotCard.css";
-import Sword from "./swordmine2.svg";
-import Cup from "./cupmine2.svg";
-import Wand from "./wandsmine2.svg";
-import Pentacles from "./pentaclemine2.svg";
-import Ravens from "./ravenlines2w.svg";
+import Sword from "../img/swordmine2.svg";
+import Cup from "../img/cupmine2.svg";
+import Wand from "../img/wandsmine2.svg";
+import Pentacles from "../img/pentaclemine2.svg";
+import Ravens from "../img/ravenlines2w.svg";
 
 const TarotCard = (props) => {
   function imageChooser(suit) {

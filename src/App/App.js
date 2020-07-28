@@ -1,8 +1,8 @@
 import React from "react";
-import logogif from "./ravengif.gif";
-import Hero from "./Hero.js";
+import logogif from "../img/ravengif.gif";
+import Hero from "../HeroBanner/Hero.js";
 import "./App.css";
-import Main from "./Main.js";
+import Main from "../BaseContainer/Main.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,6 +12,7 @@ class App extends React.Component {
     };
     this.toggleView = this.toggleView.bind(this);
   }
+
   toggleView() {
     this.setState({
       view: "started",

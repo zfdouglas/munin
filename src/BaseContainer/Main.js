@@ -1,6 +1,6 @@
 import React from "react";
 import ReadingChoiceCircle from "./ReadingChoiceCircles";
-import CardTable from "./CardTable.js";
+import CardTable from "../CardTable/CardTable.js";
 import "./Main.css";
 
 class Main extends React.Component {

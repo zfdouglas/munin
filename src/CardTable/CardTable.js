@@ -1,5 +1,5 @@
 import React from "react";
-import TarotCard from "./TarotCard.js";
+import TarotCard from "../TarotCard/TarotCard.js";
 import "./cardtable.css";
 class CardTable extends React.Component {
   constructor(props) {
@@ -10,8 +10,9 @@ class CardTable extends React.Component {
       loading: true,
     };
   }
+  //Function that calls backend API to fetch a set of shuffled cards based off the read choice state (either int 1 or 2). Sets state to the shuffled card data. Called before component load.
   componentDidMount() {
-    fetch("http://localhost:8080/api/v1/cardsShuffled/" + this.state.readChoice)
+    fetch("/api/v1/cardsShuffled/" + this.state.readChoice)
       .then((res) => res.json())
       .then((data) => {
         this.setState({ cardData: data, loading: false });

@@ -1,6 +1,6 @@
 import React from "react";
-import Tri from "./triquetra.svg";
-import Single from "./tarot2.svg";
+import Tri from "../img/triquetra.svg";
+import Single from "../img/tarot2.svg";
 import "./Main.css";
 const ReadingChoiceCircles = (props) => {
   function imageChooser(option) {
