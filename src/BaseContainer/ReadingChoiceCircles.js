@@ -3,6 +3,7 @@ import Tri from "../img/triquetra.svg";
 import Single from "../img/tarot2.svg";
 import "./Main.css";
 const ReadingChoiceCircles = (props) => {
+  //Returns image path for specified number of cards
   function imageChooser(option) {
     if (option === "Tri") {
       return Tri;

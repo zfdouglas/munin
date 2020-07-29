@@ -48,16 +48,17 @@
 .HeroButton button {
   font-size: 3vw;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: 500;
   border-style: none;
   outline: none;
   padding: 0.5rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #3d9bff;
+  background: transparent;
   color: #ffffff;
   cursor: pointer;
+  border: 2px solid white;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
@@ -86,7 +87,7 @@ button:active {
     bottom: 20vh;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .HeroTitle {
     font-size: 12vw;
     text-align: center;

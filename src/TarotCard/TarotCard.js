@@ -7,6 +7,7 @@ import Pentacles from "../img/pentaclemine2.svg";
 import Ravens from "../img/ravenlines2w.svg";
 
 const TarotCard = (props) => {
+  //Returns image path based on the passed in argument.
   function imageChooser(suit) {
     if (suit === "Cups") {
       return Cup;
@@ -20,6 +21,7 @@ const TarotCard = (props) => {
       return Ravens;
     }
   }
+  //Returns the roman numeral corresponding to the argument's value
   function getRomanNumerals(number) {
     if (number === "1") {
       return "I";
@@ -43,6 +45,7 @@ const TarotCard = (props) => {
       return "X";
     }
   }
+  //Takes an array and splits the array at each comma, returning each value.
   function definitionFormatter(def) {
     return def.split(",");
   }
