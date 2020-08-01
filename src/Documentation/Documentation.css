@@ -1,0 +1,113 @@
+.DocumentationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DocumentationCard {
+  margin-top: 5vh;
+  width: 50vw;
+  min-height: 40vh;
+  border-radius: 7px;
+  background: #282c34;
+  padding: 4vh 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SampleResponse {
+  margin: 1vh auto 1vh auto;
+  width: 90%;
+  min-height: 20vh;
+  max-height: 25vh;
+  background-color: rgb(245, 245, 245);
+  border-radius: 3px;
+  box-shadow: inset 0 0 1.5px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  text-align: left;
+}
+/* width */
+.SampleResponse::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.SampleResponse::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+.SampleResponse::-webkit-scrollbar-thumb {
+  background: rgb(255, 95, 95);
+}
+.CallTitle {
+  color: rgb(255, 95, 95);
+  font-weight: 700;
+  font-size: 3vw;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid salmon;
+}
+.CallPath {
+  font-weight: 500;
+  font-size: 1.5vw;
+  text-align: left;
+  color: rgba(61, 155, 255, 1);
+}
+h3 {
+  margin: 0.1em 0;
+  align-self: flex-start;
+}
+.CallDescription {
+  color: white;
+  align-self: left;
+  font-weight: 400;
+}
+.SampleTitle {
+  color: #ff9900;
+  font-weight: 600;
+  align-self: center;
+  margin-top: 2vh;
+  font-size: 2vw;
+}
+
+table,
+th,
+td {
+  border: 2px solid rgba(61, 155, 255, 1);
+  padding: 1%;
+  text-align: left;
+  color: white;
+  word-break: normal;
+}
+th {
+  padding: 2%;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  background-color: rgba(61, 155, 255, 1);
+  word-break: break-all;
+}
+table {
+  /* width: 40vw; */
+  table-layout: fixed;
+  height: 30%;
+  width: 100%;
+  border-collapse: collapse;
+}
+@media screen and (max-width: 475px) {
+  .CallTitle {
+    font-size: 6vw;
+  }
+  td {
+    font-size: 3vw;
+  }
+  th {
+    font-size: 3.5vw;
+  }
+  .SampleTitle {
+    font-size: 4vw;
+  }
+  .DocumentationCard {
+    width: 80vw;
+  }
+}

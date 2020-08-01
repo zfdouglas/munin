@@ -15,7 +15,7 @@ const Hero = ({ handleClick }) => {
         </p>
       </div>
       <div className="HeroButton">
-        <button onClick={onClick}>Onwards</button>
+        <button onClick={onClick}>Demo API</button>
       </div>
     </div>
   );

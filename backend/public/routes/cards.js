@@ -56,7 +56,7 @@ const getCardsBySuit = async (req, res, next) => {
   }
 };
 
-const getAllCards = async (res, next) => {
+const getAllCards = async (req, res, next) => {
   try {
     const data = fs.readFileSync(path.join(__dirname, "./cards.json"));
     const stats = JSON.parse(data);
@@ -66,7 +66,7 @@ const getAllCards = async (res, next) => {
   }
 };
 
-const getAllShuffledCards = async (res, next) => {
+const getAllShuffledCards = async (req, res, next) => {
   try {
     const data = fs.readFileSync(path.join(__dirname, "./cards.json"));
     const stats = JSON.parse(data);
@@ -182,7 +182,7 @@ router
   .get("/api/v1/cards/:id", getCardById)
   .get("/api/v1/cardsBySuit/:suit", getCardsBySuit)
   .get("/api/v1/cardsShuffled/:num", getNumShuffledCards)
-  .get("/api/v1/cards", getAllCards)
+  .get("/api/v1/allCards", getAllCards)
   .get("/api/v1/cardsShuffled", getAllShuffledCards);
 // .put("/api/v1/cards/:id", updateCard)
 // .post("/api/v1/cards/:id", createCard)

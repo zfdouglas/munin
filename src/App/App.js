@@ -3,6 +3,7 @@ import logogif from "../img/ravengif.gif";
 import Hero from "../HeroBanner/Hero.js";
 import "./App.css";
 import Main from "../BaseContainer/Main.js";
+import Documentation from "../Documentation/Documentation.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -32,14 +33,35 @@ class App extends React.Component {
                 view: "welcomeScreen",
               });
             }}
+          ></p>
+          <div
+            onClick={() => {
+              this.setState({
+                view: "welcomeScreen",
+              });
+            }}
+            className="muninHeader"
           >
-            <div className="muninHeader"> MUNIN</div>
+            MUNIN
+          </div>
+
+          <p className="Documentation">
+            <span
+              onClick={() => {
+                this.setState({
+                  view: "documentation",
+                });
+              }}
+            >
+              Documentation
+            </span>
           </p>
         </header>
         {this.state.view === "welcomeScreen" && (
           <Hero handleClick={this.toggleView} />
         )}
         {this.state.view === "started" && <Main />}
+        {this.state.view === "documentation" && <Documentation />}
       </div>
     );
   }

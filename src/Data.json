@@ -1,0 +1,347 @@
+{
+  "data": [
+    {
+      "Name": "GetCardById",
+      "Path": "GET /api/v1/getCard/:id",
+      "Description": "Returns a single card's data based off of ID",
+      "SampleResponse": {
+        "Id": 1,
+        "Name": "The Magician",
+        "Suit": null,
+        "Value": null,
+        "Major": true,
+        "Minor": false,
+        "UprightDef": "creativity, self-confidence, dexterity, sleight of hand,will-power, skill",
+        "ReverseDef": "delay, unimaginative, insecurity, lack of self-confidence"
+      }
+    },
+    {
+      "Name": "GetCardBySuit",
+      "Path": "GET /api/v1/cardsBySuit/:suit",
+      "Description": "Returns data of all cards matching the passed in suit. Suit choices: swords, pentacles, wands, and cups",
+      "SampleResponse": [
+        {
+          "Id": 63,
+          "Name": "Ace of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "1",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "prosperity, happiness, pleasure",
+          "ReverseDef": "misery, greedy, money"
+        },
+        {
+          "Id": 64,
+          "Name": "Two of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "2",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "harmony, new projects, helpful",
+          "ReverseDef": "difficulty, discouragement"
+        },
+        {
+          "Id": 65,
+          "Name": "Three of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "3",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "abilities, approval, effort",
+          "ReverseDef": "preoccupation, ambitions"
+        },
+        {
+          "Id": 66,
+          "Name": "Four of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "4",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "ungenerous, greedy,miserly",
+          "ReverseDef": "spendthrift, obstacles, earthly possessions"
+        },
+        {
+          "Id": 67,
+          "Name": "Five of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "5",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "destitution, poor health, despair, loneliness",
+          "ReverseDef": "employment, courage, revival"
+        },
+        {
+          "Id": 68,
+          "Name": "Six of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "6",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "prosperity, philanthropy, charity, gifts",
+          "ReverseDef": "jealousy, miserliness, unfairness"
+        },
+        {
+          "Id": 69,
+          "Name": "Seven of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "7",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "development, re-evaluation, effort, hard work",
+          "ReverseDef": "impatience, slow progress, investments"
+        },
+        {
+          "Id": 70,
+          "Name": "Eight of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "8",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "employment, money, learning, trade",
+          "ReverseDef": "void, no ambition, dislike"
+        },
+        {
+          "Id": 71,
+          "Name": "Nine of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "9",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "solitude, well-being, green thumb",
+          "ReverseDef": "caution, possible loss"
+        },
+        {
+          "Id": 72,
+          "Name": "Ten of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "10",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "wealth, prosperity, stability",
+          "ReverseDef": "dull, slothfulness, mistfortune"
+        },
+        {
+          "Id": 73,
+          "Name": "Page of Pentacles",
+          "Suit": "Pentacles",
+          "Value": null,
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "kindness, new ideas, new opinions, scholar",
+          "ReverseDef": "luxury, rebellious, bad news"
+        },
+        {
+          "Id": 74,
+          "Name": "Knight of Pentacles",
+          "Suit": "Pentacles",
+          "Value": null,
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "dull outlook, patience, animal lover, trustworthy",
+          "ReverseDef": "carelessness, standstill, irresponsible"
+        },
+        {
+          "Id": 75,
+          "Name": "Queen of Pentacles",
+          "Suit": "Pentacles",
+          "Value": null,
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "thoughtfulness, intelligence, talents, melancholy",
+          "ReverseDef": "mistrust, suspicion, neglect"
+        },
+        {
+          "Id": 76,
+          "Name": "King of Pentacles",
+          "Suit": "Pentacles",
+          "Value": null,
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "reliable person, steadiness",
+          "ReverseDef": "bribes, materialistic, calm"
+        }
+      ]
+    },
+    {
+      "Name": "GetNumberOfCards",
+      "Path": "GET /api/v1/cardsShuffled/:num",
+      "Description": "Returns N number of random cards",
+      "SampleResponse": [
+        {
+          "Id": 59,
+          "Name": "Page of Swords",
+          "Suit": "Swords",
+          "Value": null,
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "grace, diplomacy, dexterity",
+          "ReverseDef": "imposter, ill-health, cunningness"
+        },
+        {
+          "Id": 6,
+          "Name": "The Chariot",
+          "Suit": null,
+          "Value": null,
+          "Major": true,
+          "Minor": false,
+          "UprightDef": "perseverance, rushed decision, turmoil, vengeance, adversity",
+          "ReverseDef": "vanquishment, defeat, failure, unsuccessful"
+        },
+        {
+          "Id": 44,
+          "Name": "Ten of Cups",
+          "Suit": "Cups",
+          "Value": "10",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "friendship, happiness, life",
+          "ReverseDef": "waste, broken relationships, quarrel"
+        }
+      ]
+    },
+    {
+      "Name": "GetAllCards",
+      "Path": "GET /api/v1/allCards",
+      "Description": "Returns all tarot cards, ordered by suit then by value",
+      "SampleResponse": [
+        {
+          "Id": 0,
+          "Name": "The Fool",
+          "Suit": null,
+          "Value": null,
+          "Major": true,
+          "Minor": false,
+          "UprightDef": "beginnings, possibilities, pleasure, thoughtlessness, adventure, opportunity",
+          "ReverseDef": "indecision, hesitation, injustice, apathy, bad choice"
+        },
+        {
+          "Id": 1,
+          "Name": "The Magician",
+          "Suit": null,
+          "Value": null,
+          "Major": true,
+          "Minor": false,
+          "UprightDef": "creativity, self-confidence, dexterity, sleight of hand,will-power, skill",
+          "ReverseDef": "delay, unimaginative, insecurity, lack of self-confidence"
+        },
+        {
+          "Id": 2,
+          "Name": "The High Priestess",
+          "Suit": null,
+          "Value": null,
+          "Major": true,
+          "Minor": false,
+          "UprightDef": "knowledge, wisdom, learning, intuition, impatience, virtue, purity",
+          "ReverseDef": "selfishness, shallowness, misunderstanding, ignorance"
+        },
+        {
+          "Id": 3,
+          "Name": "The Empress",
+          "Suit": null,
+          "Value": null,
+          "Major": true,
+          "Minor": false,
+          "UprightDef": "development, accomplishment action, evolution",
+          "ReverseDef": "inaction, lack on concentration, vacillation, anxiety, infidelity"
+        },
+        {
+          "Id": 4,
+          "Name": "The Emperor",
+          "Suit": null,
+          "Value": null,
+          "Major": true,
+          "Minor": false,
+          "UprightDef": "authority, father-figure, structure, solid foundation",
+          "ReverseDef": "domination, excessive control, rigidity, inflexibility"
+        }
+      ]
+    },
+    {
+      "Name": "GetAllShuffledCards",
+      "Path": "GET /api/v1/cardsShuffled",
+      "Description": "Returns all tarot cards in random order.",
+      "SampleResponse": [
+        {
+          "Id": 59,
+          "Name": "Page of Swords",
+          "Suit": "Swords",
+          "Value": null,
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "grace, diplomacy, dexterity",
+          "ReverseDef": "imposter, ill-health, cunningness"
+        },
+        {
+          "Id": 35,
+          "Name": "Ace of Cups",
+          "Suit": "Cups",
+          "Value": "1",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "good health, love, joy, beauty",
+          "ReverseDef": "egotism, selfishness, hesitancy"
+        },
+        {
+          "Id": 51,
+          "Name": "Three of Swords",
+          "Suit": "Swords",
+          "Value": "3",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "broken relationship, civil war",
+          "ReverseDef": "sorrow, loss, confusion"
+        },
+        {
+          "Id": 23,
+          "Name": "Three of Wands",
+          "Suit": "Wands",
+          "Value": "3",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "cooperation, good partnership, success",
+          "ReverseDef": "carelessness, arrogance, pride, mistakes, selfishness, lack of determination, setback"
+        },
+        {
+          "Id": 67,
+          "Name": "Five of Pentacles",
+          "Suit": "Pentacles",
+          "Value": "5",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "destitution, poor health, despair, loneliness",
+          "ReverseDef": "employment, courage, revival"
+        },
+        {
+          "Id": 30,
+          "Name": "Ten of Wands",
+          "Suit": "Wands",
+          "Value": "10",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "pain, ruined, failure",
+          "ReverseDef": "cleverness, energy, strength"
+        },
+        {
+          "Id": 31,
+          "Name": "Page of Wands",
+          "Suit": "Wands",
+          "Value": "Page",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "enthusiasm, exploration, discovery, free spirit",
+          "ReverseDef": "setbacks to new ideas, pessimism, lack of direction"
+        },
+        {
+          "Id": 37,
+          "Name": "Three of Cups",
+          "Suit": "Cups",
+          "Value": "3",
+          "Major": false,
+          "Minor": true,
+          "UprightDef": "fortune, hospitality, discovery",
+          "ReverseDef": "hidden, overindulgence, pain, gossip"
+        }
+      ]
+    }
+  ]
+}
