@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa47b621ea254f80b1e70f0dd2f09bf2",
+    "revision": "fb2f346838f7d575255b7ffa03fc90cc",
     "url": "/munin/index.html"
   },
   {
-    "revision": "4f78e6746e8f86b11980",
-    "url": "/munin/static/css/main.8dcfc786.chunk.css"
+    "revision": "0aa072a4b2cb6f89f5c2",
+    "url": "/munin/static/css/main.cce2775d.chunk.css"
   },
   {
-    "revision": "4cd62c1fee07d8bfe12c",
-    "url": "/munin/static/js/2.4f7aff9f.chunk.js"
+    "revision": "60fba19bf2ee20d16344",
+    "url": "/munin/static/js/2.3ec409b4.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/munin/static/js/2.4f7aff9f.chunk.js.LICENSE.txt"
+    "url": "/munin/static/js/2.3ec409b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f78e6746e8f86b11980",
-    "url": "/munin/static/js/main.a882c2d2.chunk.js"
+    "revision": "0aa072a4b2cb6f89f5c2",
+    "url": "/munin/static/js/main.e566c95a.chunk.js"
   },
   {
     "revision": "2bd3ec1fd8e31d778b9b",
